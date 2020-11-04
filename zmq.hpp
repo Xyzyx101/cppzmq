@@ -2027,6 +2027,7 @@ enum class socket_type : int
     client = ZMQ_CLIENT,
     radio = ZMQ_RADIO,
     dish = ZMQ_DISH,
+    dgram = ZMQ_DGRAM,
 #endif
 #if ZMQ_VERSION_MAJOR >= 4
     stream = ZMQ_STREAM,
